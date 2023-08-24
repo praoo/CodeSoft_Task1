@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* width: 92vw; */
+    /* height: 92vh; */
+    margin: 4vh 4vw;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    background: rgb(222, 244, 244);
+    border-radius: 10px;
+    
+}
+nav ul{
+    display: flex;
+    gap: 50px;
+}
+li{
+    list-style: none;
+    font-weight: 600;
+    font-size: 16px;
+}
+li:hover{
+    text-decoration: underline;
+    font-weight: 800;
+    color: rgb(235, 63, 144);
+    font-size: 20px;
+}
+header nav ul{
+      position: relative;
+      left: 80px;
+}
+header nav button{
+      position: absolute;
+      right: 4vw; 
+      padding: 8px 15px;
+      border: none;
+      border-radius: 5px;
+   
+      color: white;
+}
+main{
+    display: flex;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 46vw;
+}
+.heading{
+     margin-bottom: 25px;
+}
+.left .heading h1{
+    font-size: 55px;
+    color: #290b5e;
+}
+h1 span{
+    color: rgb(89, 0, 255);
+}
+button{
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(89, 0, 255);
+    color: white;
+    width: fit-content;
+    margin-top: 20px;
+}
+button:hover{
+    color: black;
+    background-color: rgb(235, 63, 144);
+    border: 1px solid black;
+}
+.right{
+   width: 46vw;
+   
+}
+.right img{
+    padding-top: 10vh;
+    height: 65vh;
+    width: 46vw;
+}
+.about{
+    margin-top: 50px;
+}
+.about h1{
+    font-size: 35px;
+    color: rgb(89, 0, 255);
+}
+.about p{
+    font-size: 20px;
+    padding: 10px 0px 10px 0px; 
+    width: 70vw;
+}
+.getin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.getin h1{
+    font-size: 40px;
+    color: rgb(89, 0, 255);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+label{
+    font-size: 25px;
+}
+input{
+    width: 30vw;
+    height: 35px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+textarea{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.getin button{
+    width: 100px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+.footer{
+    display: flex;
+    /* gap: 200px; */
+    justify-content: space-around;
+}
+.footer h2{
+    margin: 10px;
+    color: #290b5e;
+}
+.footer p{
+    margin: 10px;
+}
+.footer p:hover{
+    text-decoration: underline;
+    font-weight: 600;
+    color: rgb(89, 0, 255);
+    font-size: 16px;
+}
+#support{
+    color: #290b5e;
+    font-size: 21px;
+    font-weight: 600;
+}
+#support:hover{
+    color: rgb(89, 0, 255);
+}
+.copy{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    color: #212121;
+}
